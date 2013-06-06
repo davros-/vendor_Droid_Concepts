@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
 
 # ringtones
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=Hydra.ogg \
-    ro.config.notification_sound=Proxima.ogg \
+    ro.config.ringtone=AIB2.m4a \
+    ro.config.notification_sound=Fluorine.ogg \
     ro.config.alarm_alert=Cesium.ogg
 

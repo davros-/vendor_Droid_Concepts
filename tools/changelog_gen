@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DATE=$(vendor/carbon/tools/getdate)
+DATE=$(vendor/DEMENTED/tools/getdate)
 ydate=$(date -d '1 day ago' +"%m/%d/%Y")
 sdate=${1}
 rdir=`pwd`
@@ -44,8 +44,12 @@ do
             proj_credit=Nocoast
         elif [ "$origin" = "gh" ]; then
             proj_credit=Github
-        else
+        elif [ "$origin" = "davros" ]; then
+            proj_credit=davros
+        elif [ "$origin" = "cr" ]; then
             proj_credit=CarbonDev
+        else
+            proj_credit=cphelps76
         fi
         # Write the changelog
         echo "$proj_credit Project name: $project" > "$rdir"/changelog.txt
