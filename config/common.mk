@@ -143,7 +143,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES +=  \
     vendor/DEMENTED/prebuilt/demented/media/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
-    vendor/DEMENTED/prebuilt/demented/medianotifications/Simple_High.mp3:system/media/audio/notifications/Simple_High.mp3 \
+    vendor/DEMENTED/prebuilt/demented/media/notifications/Simple_High.mp3:system/media/audio/notifications/Simple_High.mp3 \
     vendor/DEMENTED/prebuilt/demented/media/ringtones/AIB2.m4a:system/media/audio/ringtones/AIB2.m4a \
     vendor/DEMENTED/prebuilt/demented/media/ringtones/Halo.m4a:system/media/audio/ringtones/Halo.m4a 
 
