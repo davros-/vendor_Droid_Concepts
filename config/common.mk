@@ -14,6 +14,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false
 
+# Bootani...To be moved to device folders
+PRODUCT_COPY_FILES +=  \
+    vendor/DEMENTED/prebuilt/common/media/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # Version information used on all builds
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=JDQ39E BUILD_VERSION_TAGS=release-keys USER=cphelps76 BUILD_UTC_DATE=$(shell date +"%s")
 
