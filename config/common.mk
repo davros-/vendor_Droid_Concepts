@@ -23,6 +23,7 @@ ro.modversion=DEMENTED-$(shell date +"%m-%d-%y")
 # packages
 PRODUCT_PACKAGES += \
     Apollo \
+    Calendar \
     Camera \
     DEMENTEDBeats \
     DEMENTED-Droid \
