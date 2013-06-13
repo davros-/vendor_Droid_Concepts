@@ -22,6 +22,9 @@ ro.modversion=Droid_Concepts-$(shell date +"%m-%d-%y")
 
 # packages
 PRODUCT_PACKAGES += \
+   Camera \
+    DCWallpapers \
+    DCBeats \
     Gallery2 \
     Galaxy4 \
     HoloSpiralWallpaper \
@@ -34,7 +37,8 @@ PRODUCT_PACKAGES += \
     PhaseBeam \
     PhotoTable \
     QuickSearchBox \
-    Torch 
+    Torch \
+    Wallpapers 
 
 # tools
 PRODUCT_PACKAGES += \
@@ -75,6 +79,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/Droid_Concepts/overlay/common
 # bin
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/prebuilt/common/bin/sysinit:system/bin/sysinit
+
+# etc
+PRODUCT_COPY_FILES += \
+    vendor/DEMENTED/prebuilt/common/etc/init.demented.rc:root/init.demented.rc
 
 # Common Droid_Concepts/prebuilt apps and libs
 PRODUCT_COPY_FILES += \
