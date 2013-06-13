@@ -6,5 +6,5 @@ PRODUCT_PACKAGES += \
 
 # theme chooser
 PRODUCT_COPY_FILES += \
-       vendor/DEMENTED/config/permissions/com.tmobile.software.themes.xml:system/etc/permissions/com.tmobile.software.themes.xml
+       vendor/Droid_Concepts/config/permissions/com.tmobile.software.themes.xml:system/etc/permissions/com.tmobile.software.themes.xml
 
