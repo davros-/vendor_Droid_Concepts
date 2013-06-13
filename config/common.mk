@@ -93,7 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/GoogleVoice.apk:system/app/GoogleVoice.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/GmsCore.apk:system/app/GmsCore.apk \
-    vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Hangout.apk:system/app/Hangout.apk \
+    vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Hangouts.apk:system/app/Hangouts.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/NetworkLocation.apk:system/app/NetworkLocation.apk \

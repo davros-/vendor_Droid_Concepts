@@ -1,5 +1,0 @@
-#!/system/bin/sh
-
-echo Goodbye!
-sleep 1
-reboot recovery
