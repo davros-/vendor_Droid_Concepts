@@ -224,4 +224,4 @@ else
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-  ro.Droid_Concepts.version=$(Droid_Concepts_VERSION)
+  ro.droid_concepts.version=$(DROID_CONCEPTS_VERSION)
