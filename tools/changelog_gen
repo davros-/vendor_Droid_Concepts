@@ -45,11 +45,11 @@ do
         elif [ "$origin" = "gh" ]; then
             proj_credit=Github
         elif [ "$origin" = "davros" ]; then
-            proj_credit=davros
+            proj_credit=chris
         elif [ "$origin" = "cr" ]; then
             proj_credit=CarbonDev
         else
-            proj_credit=cphelps76
+            proj_credit=davros
         fi
         # Write the changelog
         echo "$proj_credit Project name: $project" > "$rdir"/changelog.txt

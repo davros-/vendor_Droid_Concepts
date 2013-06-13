@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
 
 # etc
 PRODUCT_COPY_FILES += \
-    vendor/DEMENTED/prebuilt/common/etc/init.demented.rc:root/init.demented.rc
+    vendor/DEMENTED/prebuilt/common/etc/init.dc.rc:root/init.dc.rc
 
 # Common Droid_Concepts/prebuilt apps and libs
 PRODUCT_COPY_FILES += \
