@@ -1,8 +1,8 @@
-add_lunch_combo demented_grouper-userdebug
-add_lunch_combo demented_jflteatt-userdebug
-add_lunch_combo demented_jfltetmo-userdebug
-add_lunch_combo demented_jfltevzw-userdebug
-add_lunch_combo demented_maguro-userdebug
-add_lunch_combo demented_mako-userdebug
-add_lunch_combo demented_toro-userdebug
+add_lunch_combo Droid_Concepts_grouper-userdebug
+add_lunch_combo Droid_Concepts_jflteatt-userdebug
+add_lunch_combo Droid_Concepts_jfltetmo-userdebug
+add_lunch_combo Droid_Concepts_jfltevzw-userdebug
+add_lunch_combo Droid_Concepts_maguro-userdebug
+add_lunch_combo Droid_Concepts_mako-userdebug
+add_lunch_combo Droid_Concepts_toro-userdebug
 
