@@ -1,10 +1,10 @@
 # gps
 PRODUCT_COPY_FILES += \
-    vendor/Droid_Conccepts/prebuilt/common/etc/gps.conf:system/etc/gps.conf
+    vendor/Droid_Concepts/prebuilt/common/etc/gps.conf:system/etc/gps.conf
 
 # spn
 PRODUCT_COPY_FILES += \
-    vendor/Droid_Conccepts/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml
+    vendor/Droid_Concepts/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml
 
 # apns
 PRODUCT_COPY_FILES += \
