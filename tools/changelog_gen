@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DATE=$(vendor/DEMENTED/tools/getdate)
+DATE=$(vendor/Droid_Concepts/tools/getdate)
 ydate=$(date -d '1 day ago' +"%m/%d/%Y")
 sdate=${1}
 rdir=`pwd`

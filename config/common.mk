@@ -15,20 +15,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false
 
 # Version information used on all builds
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=JDQ39E BUILD_VERSION_TAGS=release-keys USER=cphelps76 BUILD_UTC_DATE=$(shell date +"%s")
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=JDQ39E BUILD_VERSION_TAGS=release-keys USER=davros BUILD_UTC_DATE=$(shell date +"%s")
 
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.modversion=Droid_Concepts-$(shell date +"%m-%d-%y")
 
 # packages
 PRODUCT_PACKAGES += \
-    Apollo \
-    Calendar \
-    Camera \
-    DEMENTEDBeats \
-    Droid_Concepts-Droid \
-    DEMENTEDFiles \
-    DEMENTEDHome \
     Gallery2 \
     Galaxy4 \
     HoloSpiralWallpaper \
@@ -41,8 +34,7 @@ PRODUCT_PACKAGES += \
     PhaseBeam \
     PhotoTable \
     QuickSearchBox \
-    Torch \
-    Wallpapers 
+    Torch 
 
 # tools
 PRODUCT_PACKAGES += \
@@ -87,8 +79,9 @@ PRODUCT_COPY_FILES += \
 # Common Droid_Concepts/prebuilt apps and libs
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/ApexLauncher.apk:system/app/ApexLauncher.apk \
+    vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Calendar.apk:system/app/Calendar.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/GenieWidget.apk:system/app/GenieWidget.apk \
-    vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Gmail.apk:system/app/Gmail.apk \
+    vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Gmail2.apk:system/app/Gmail2.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
