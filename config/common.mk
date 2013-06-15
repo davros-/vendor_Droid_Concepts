@@ -104,7 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Hangouts.apk:system/app/Hangouts.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/MediaUploader.apk:system/app/MediaUploader.apk \
-    vendor/Droid_Concepts/prebuit/Droid_Concepts/app/Music2.apk:system/app/Music2.apk \
+    vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Music2.apk:system/app/Music2.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/PartnerBookmarksProvider.apk:system/app/PartnerBookmarksProvider.apk \
