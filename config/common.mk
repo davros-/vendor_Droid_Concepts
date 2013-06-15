@@ -111,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Talkback.apk:system/app/Talkback.apk \
+    vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/TricksterMod.apk:system/app/TricksterMod.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Thinkfree.apk:system/app/Thinkfree.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/Velvet.apk:system/app/Velvet.apk \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/app/YouTube.apk:system/app/YouTube.apk \
