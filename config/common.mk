@@ -22,7 +22,7 @@ ro.modversion=Droid_Concepts-$(shell date +"%m-%d-%y")
 
 # packages
 PRODUCT_PACKAGES += \
-   Camera \
+    Camera \
     DCWallpapers \
     DCBeats \
     Gallery2 \
