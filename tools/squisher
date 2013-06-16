@@ -138,4 +138,4 @@ echo $CL_GRN"md5: $(cat $img.md5sum | awk '{ print $1 }')"$CL_RST
 echo
 )
 
-exit 
+exit 0
