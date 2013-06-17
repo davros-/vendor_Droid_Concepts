@@ -8,7 +8,7 @@ PRODUCT_COPY_FILES += \
 
 # apns
 PRODUCT_COPY_FILES += \
-    vendor/Droid_Conccepts/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/Droid_Concepts/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
     gsm.current.phone-type=1
