@@ -72,7 +72,7 @@ $SED -i \
 	$REPACK/ota/system/build.prop
 
 # Determine what to name the new signed package
-MODVERSION=`sed -n -e'/ro\.Droid_Concepts\.version/s/^.*=//p' $OUT/system/build.prop`
+MODVERSION=`sed -n -e'/ro\.droid_concepts\.version/s/^.*=//p' $OUT/system/build.prop`
 TARGET_PRODUCT_FINAL=`echo $TARGET_PRODUCT | cut -d '_' -f2`
 echo $CL_CYN"MODVERSION: $MODVERSION"$CL_RST
 OUTFILE=$OUT/$MODVERSION-$TARGET_PRODUCT_FINAL.zip
