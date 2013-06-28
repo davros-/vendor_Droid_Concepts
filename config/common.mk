@@ -186,44 +186,44 @@ PRODUCT_COPY_FILES += \
 
 # version
 RELEASE = false
-Droid_Concepts_VERSION_MAJOR = 1
-Droid_Concepts_VERSION_MINOR = 7
+DROID_CONCEPTS_VERSION_MAJOR = 1
+DROID_CONCEPTS_VERSION_MINOR = 7
 
 #Set Droid_Concepts_BUILDTYPE and goo.im properties
-ifdef Droid_Concepts_NIGHTLY
+ifdef DROID_CONCEPTS_NIGHTLY
     Droid_Concepts_BUILDTYPE := NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.goo.rom=Droid_Conceptsjb2exp \
         ro.goo.developerid=Droid_Concepts \
         ro.goo.version=$(shell date +%Y%m%d)
 endif
-ifdef Droid_Concepts_EXPERIMENTAL
-    Droid_Concepts_BUILDTYPE := EXPERIMENTAL
+ifdef DROID_CONCEPTS_EXPERIMENTAL
+    DROID_CONCEPTS_BUILDTYPE := EXPERIMENTAL
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.goo.rom=Droid_Conceptsjb2exp \
         ro.goo.developerid=Droid_Concepts \
         ro.goo.version=$(shell date +%Y%m%d)
 endif
-ifdef Droid_Concepts_RELEASE
-    Droid_Concepts_BUILDTYPE := RELEASE
+ifdef DROID_CONCEPTS_RELEASE
+    DROID_CONCEPTS_BUILDTYPE := RELEASE
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.goo.rom=Droid_Conceptsjb2 \
         ro.goo.developerid=Droid_Concepts \
         ro.goo.version=$(shell date +%Y%m%d)
 endif
 #Set Unofficial if no buildtype set (Buildtype should ONLY be set by Droid_Concepts Devs!)
-ifdef Droid_Concepts_BUILDTYPE
+ifdef DROID_CONCEPTS_BUILDTYPE
 else
-    Droid_Concepts_BUILDTYPE := UNOFFICIAL
-    Droid_Concepts_VERSION_MAJOR :=
-    Droid_Concepts_VERSION_MINOR :=
+    DROID_CONCEPTS_BUILDTYPE := UNOFFICIAL
+    DROID_CONCEPTS_VERSION_MAJOR :=
+    DROID_CONCEPTS_VERSION_MINOR :=
 endif
 
 #Set Droid_Concepts version
 ifdef Droid_Concepts_RELEASE
-    Droid_Concepts_VERSION := "Droid_Concepts-v"$(Droid_Concepts_VERSION_MAJOR).$(Droid_Concepts_VERSION_MINOR)
+    DROID_CONCEPTS_VERSION := "Droid_Concepts-v"$(Droid_Concepts_VERSION_MAJOR).$(Droid_Concepts_VERSION_MINOR)
 else
-    Droid_Concepts_VERSION := "Droid_Concepts"-$(shell date +%Y%m%d-%H%M)
+    DROID_CONCEPTS_VERSION := "Droid_Concepts"-$(shell date +"%m-%d-%y")
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
