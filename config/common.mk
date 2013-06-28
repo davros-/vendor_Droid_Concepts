@@ -220,7 +220,7 @@ else
 endif
 
 #Set Droid_Concepts version
-ifdef Droid_Concepts_RELEASE
+ifdef DROID_CONCEPTS_RELEASE
     DROID_CONCEPTS_VERSION := "Droid_Concepts-v"$(Droid_Concepts_VERSION_MAJOR).$(Droid_Concepts_VERSION_MINOR)
 else
     DROID_CONCEPTS_VERSION := "Droid_Concepts"-$(shell date +"%m-%d-%y")
