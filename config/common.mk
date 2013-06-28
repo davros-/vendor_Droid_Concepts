@@ -145,7 +145,8 @@ PRODUCT_COPY_FILES +=  \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/media/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/media/notifications/Simple_High.mp3:system/media/audio/notifications/Simple_High.mp3 \
     vendor/Droid_Concepts/prebuilt/Droid_Concepts/media/ringtones/AIB2.m4a:system/media/audio/ringtones/AIB2.m4a \
-    vendor/Droid_Concepts/prebuilt/Droid_Concepts/media/ringtones/Halo.m4a:system/media/audio/ringtones/Halo.m4a 
+    vendor/Droid_Concepts/prebuilt/Droid_Concepts/media/ringtones/Halo.m4a:system/media/audio/ringtones/Halo.m4a \
+    vendor/Droid_Concepts/prebuilt/Droid_Concepts/media/ringtones/Provincial_Synthetic.ogg:system/media/audio/ringtones/Provincial_Synthetic.ogg
 
 # Inherit media effect blobs
 -include vendor/Droid_Concepts/prebuilt/config/common_media_effects.mk
